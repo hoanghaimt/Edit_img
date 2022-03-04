@@ -1,0 +1,26 @@
+
+ <!-- check crop and move image -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="crop.css">
+ </head>
+  <body>
+ <div id="resize-container" class="resize-container">
+    <span class="resize-handle resize-handle-nw"></span>
+    <span class="resize-handle resize-handle-ne"></span>
+    <span class="resize-handle resize-handle-sw"></span>
+    <span class="resize-handle resize-handle-se"></span>
+    <img id="img" class="resize-image" src="/img/5.jpg" alt="Image" width="300"/>
+</div>
+<div id="overlay" class="overlay">
+    <div class="overlay-inner">
+    </div>
+</div>
+<button id="js-crop" class="btn-crop">Crop</button>
+<div id="result"></div>
+<script src="crop.js"></script>
+</body>
