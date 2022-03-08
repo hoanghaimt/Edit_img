@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="us">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Example Page</title>
+    <link href="css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui-1.10.2.custom.js"></script>
+    <script>
+        $(function () {
+
+            $('#slider').slider({
+                change: function (event, ui) {
+                    if (event.originalEvent) {
+                        $('#lblText').css("font-size", ui.value);
+
+                    }
+
+                }
+            });
+
+
+            $("#slider").slider({
+                range: true,
+                values: [10, 42]
+            });
+
+
+
+
+        });
+    </script>
+</head>
+<body>
+    <label id="lblText">
+        This is jquery UI slider</label>
+    <div id="slider">
+    </div>
+</body>
+</html>

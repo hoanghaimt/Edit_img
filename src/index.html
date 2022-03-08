@@ -35,7 +35,7 @@
             <i class="bx bxs-magic-wand"></i>
             <p>Saturation</p>
           </li>
-          <li>
+          <li onclick="Text_btn()">
             <i class='bx bx-text'></i>
             <p>Text</p>
           </li>
@@ -133,6 +133,16 @@
           </div>
         </div>
 
+      <!-- Text edit -->
+      <textarea rows="" class="form-control" id="add-text-value">
+        Your Text Here</textarea>
+        
+        <button id="add-text-btn">Add Text</button>
+        
+        
+
+        
+
         <button id="clearAll">
           <span>Reset</span><i class="bx bx-reset"></i>
         </button>
@@ -140,5 +150,7 @@
     </div>
 
     <script src="main.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </body>
 </html>

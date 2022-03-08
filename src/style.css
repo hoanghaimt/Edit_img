@@ -224,6 +224,46 @@ input[type="range"]{
 	transform: translateX(150px);
 	box-shadow: 0.1px 4px 8px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+/* .theText {
+	position: absolute;
+	top: 90px;
+	left: 0;
+	background: #000;
+	background: rgba(0, 0, 0, 0.1);
+	color: #fff;
+	width: auto;
+	padding: 5px;
+	text-align: left;
+	border: dashed 2px #ff7f27;
+	font: 15px Calibri;
+	display: block;
+	cursor: move;
+} */
+
+/* text btn*/
+
+#add-text-btn{
+
+	height: 40px;
+	width: 10%;
+	bottom: 10px;
+	text-align:end;
+	cursor: pointer;
+	left: 20px;
+	border: none;
+	border-radius: 5px;
+	justify-content: center;
+	transition: 0.5s;
+	padding: 10px;
+	background: #0951ee;
+	transform: translateX(-360px);
+
+}
+
+
+/* Clear btn */
 #clearAll span{
 	margin-right: 10px;
 }
